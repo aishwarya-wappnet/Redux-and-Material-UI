@@ -9,7 +9,7 @@
 - Without context, the same data is being sent at almost every level due to requirements in the final level which is called Prop Drilling.
 - With context, it easy to pass data throughout your app without manually passing props down the tree with the help of consumers and providers. Its a simple alternative to Redux.
 
-<img src="https://user-images.githubusercontent.com/123728432/222126590-faa0c981-d4cf-4d7e-a3d3-08413cc9088a.png" style=" width:500px ; height:300px"> <img src="https://user-images.githubusercontent.com/123728432/222126665-ebdfaad1-1d1a-422b-9ae5-882a14008c4a.png" style=" width:500px ; height:300px "  >
+<p align="center"><img src="https://user-images.githubusercontent.com/123728432/222126590-faa0c981-d4cf-4d7e-a3d3-08413cc9088a.png" style=" width:500px ; height:300px"> <img src="https://user-images.githubusercontent.com/123728432/222126665-ebdfaad1-1d1a-422b-9ae5-882a14008c4a.png" style=" width:500px ; height:300px "  ></p>
 
 ### Why redux?
 
