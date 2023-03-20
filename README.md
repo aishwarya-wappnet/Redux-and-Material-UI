@@ -101,3 +101,42 @@ const store = createStore(rootReducer);
 - To dispatch an action to the store, import useDispatch and implement it to the scope of the functional component.
 - useDispatch is a function that we import from react-redux library and assign it to a variable. And with this, we are able to dispatch any action to the store by simply adding an action as an argument to the new variable like the code in **src/App.jsx**.
 
+## Redux
+
+- Redux is built on top of functional programming principles.
+- Functional programming is about decomposing a problem into a bunch of small reusable functions that take some  input and return a result. They do not mutate or change  data. The idea of functional programming is to write small and resuable functions and compose them to build more complex functions for solving real world problems
+- Bcoz:
+  - More concise
+  - Easier to debug
+  - Easier to test
+  - More scalable
+ - Functions as first-class citizens coz you can(we can treat them as any other variable)
+ - Functions are called first-class citizens because they have all of these abilities. In other words, functions in a programming language can be treated just like any other value, such as integers or strings.
+- In summary, functions are called first-class citizens because they have the same abilities and properties as other entities in a programming language, including the ability to be passed as arguments, returned as values, and assigned to variables.
+  - Assign to a variable
+  - Pass as an argument
+  - Return from other functions
+ - Higher order functions are functions that take function as an argument or  returns it or both. So instead of working on strings, no, booleans it goes higher to operate on functions
+- Benefits of pure functions:
+  - Self-documenting
+  - Easily testable
+  - Concurrency
+  - Cacheable
+- Strings are immutable in javascript
+- Objects and arrays are not immutable/are mutable
+- Javascript is not a pure functional language. In pfl we cannot mutate data
+- When you are using const, you are not creating immutable object.
+We can declare const book = {}
+change its properties: book.title = 'Demons'
+With const, we cannot reassign book to different object
+Const prevents reassignments
+- Why immutability?
+  - Predictability
+  - Faster change detection
+  - Concurrency
+
+- Cons:
+  - Performance
+  - Memory Overhead
+
+- If you are building apps with redux, you should not mutate data coz that's the fundamental principle in redux
